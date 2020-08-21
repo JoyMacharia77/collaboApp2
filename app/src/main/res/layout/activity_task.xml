@@ -1,9 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TaskActivity">
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id ="@+id/task_logo"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/task"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/task_image"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id ="@+id/add_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_a_new_task"
+        android:textStyle="bold"
+        android:layout_below="@id/task_logo"
+        android:layout_marginTop="24dp"
+        android:textSize="24sp"
+        android:textColor="@color/my_palePink"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <RelativeLayout
+        android:layout_below="@id/add_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/layoutstyle"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:layout_marginTop="40dp"
+            android:id="@+id/task"
+            android:background="@drawable/edit_text_styles"
+            android:padding="15dp"
+            android:textColor="@color/my_black"
+            android:textColorHint="@color/MidnightBlue"
+            android:textStyle="bold"
+            android:hint="@string/enter_new_task"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_add_circle"
+            android:drawableLeft="@drawable/ic_add_circle"
+            android:inputType="textCapSentences"
+            />
+        <TextView
+            android:id ="@+id/set_deadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:text="@string/set_deadline"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="80dp"
+            android:layout_below="@id/task"
+            android:drawableStart="@drawable/ic_calendar"
+            android:drawableLeft="@drawable/ic_calendar" />
+
+        <!-- <EditText
+             android:id="@+id/deadline"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:hint="@string/set_deadline"
+             android:textColorHint="@color/MidnightBlue"
+             android:layout_below="@id/task"
+             android:layout_marginTop="50dp"
+             android:textColor="@android:color/black"
+             android:background="@drawable/edit_text_styles"
+             android:drawableStart="@drawable/ic_calendar"
+             android:drawableLeft="@drawable/ic_calendar"
+             android:layout_marginStart="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginEnd="10dp"
+             android:padding="15dp"
+             android:textStyle="bold"
+             android:onClick="setDeadline"
+             /> -->
+
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/set_deadline"
+            android:background="@drawable/action_button_style"
+            android:text="@string/add"
+            android:textSize="25dp"
+            android:textAllCaps="true"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/my_white"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

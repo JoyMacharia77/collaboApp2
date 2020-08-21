@@ -1,5 +1,12 @@
 <resources>
-    <string name="app_name">collabo App</string>
+    <string name="app_name">myTeams</string>
+    <string name="organisation">Organisation</string>
+    <string name="my_teams">My Teams</string>
+    <string name="already_have_an_account">Already have an Account?</string>
+    <string name="collabo_app">Collabo App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">User Name</string>
@@ -27,8 +34,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="task_image">task image</string>
     <string name="add_a_new_task">ADD A NEW TASK</string>
-    <string name="enter_new_task">Enter New Task:</string>
-    <string name="set_deadline">Set Deadline:</string>
+    <string name="enter_new_task">Enter New Task</string>
+    <string name="set_deadline">Set Deadline</string>
     <string name="add">ADD</string>
     <string name="edit">Edit</string>
     <string name="delete">Delete</string>

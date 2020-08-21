@@ -41,7 +41,7 @@ public class MyTasksFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-       // Toolbar toolbar = view.findViewById(R.id.toolbar);
+       //Toolbar toolbar = view.findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
         //Create an instance of tab layout and add the tabs
         TabLayout tabLayout = view.findViewById(R.id.tab_layout);

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_my_tasks">
+    app:startDestination="@id/nav_my_tasks">
 
     <fragment
         android:id="@+id/nav_my_tasks"
@@ -29,16 +29,22 @@
             app:argType="string" />
     </fragment>
 
-   <!--<fragment
+    <!--<fragment
         android:id="@+id/nav_chat"
         android:name="com.joymacharia.collaboapp.ui.chat.ChatFragment"
         android:label="Chat"
         tools:layout="@layout/fragment_chat" />-->
-   <activity
-        android:id="@+id/nav_chat"
+    <!--<activity
+        android:id="@+id/nav_my_tasks"
         android:label="@string/chat"
+        android:name="com.joymacharia.collaboapp.TaskActivity"
+        tools:layout="@layout/activity_task"/>    -->
+
+    <activity
+        android:id="@+id/nav_chat"
         android:name="com.joymacharia.collaboapp.ChatActivity"
-        tools:layout="@layout/activity_chat"/>
+        android:label="@string/chat"
+        tools:layout="@layout/activity_chat" />
 
     <fragment
         android:id="@+id/nav_profile"

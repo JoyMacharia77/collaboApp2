@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#448AFF</color>
-    <color name="colorPrimaryDark">#2979FF</color>
-    <color name="colorAccent">#82B1FF</color>
-
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#448AFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="signupColor">#066e8a</color>
+    <color name="serenity_general_background">#C4DBE0</color>
+    <color name="cycan">#00A8A8</color>
+    <color name="MidnightBlue">#0C6980</color>
+    <color name="midnightBlue">#1C4670</color>
+    <color name="BlueGrotto">#278AB0</color>
     <color name="dark_toolbar">#E91E63</color>
     <color name="bright_tab">#FF4081</color>
     <color name="grey_dark">#5E5E5E</color>
@@ -16,4 +22,9 @@
     <color name="my_palePink">#FF80AB</color>
     <color name="my_yellow">#FFFF00</color>
     <color name="chill_purple">#B388FF</color>
+    <color name="myBlue">#2979FF</color>
+    <color name="myLightBlue">#448AFF</color>
+    <color name="css_gray">#808080</color>
+    <color name="kindaCream">#CCBBBB</color>
+    <color name="myBlack">#1D1D1D</color>
 </resources>
